@@ -1,0 +1,50 @@
+.ipmb-clearfix:after {display: block; visibility: hidden; clear: both; content: "."; height: 0; float: none; }
+
+#ipmb-wrap td {padding: 12px 7px; vertical-align: middle;}
+#ipmb-wrap code {display: block; padding: 2px;}
+#ipmb-wrap .icon-ipmb {background: url('images/logo.png') no-repeat;}
+#ipmb-wrap .button-primary {margin: 20px 0;}
+
+#ipmb-wrap .ipmb-details {border: 1px solid #ccc; width: 30%; float: left; background: #fff;}
+#ipmb-wrap .ipmb-details label {float: left; margin: 0 8px 0 0; width: 100px; line-height: 24px;}
+#ipmb-wrap .ipmb-details span {color: red;}
+#ipmb-wrap .ipmb-details legend {margin-left: 20px;}
+#ipmb-wrap .ipmb-details p {padding: 0 10px;}
+#ipmb-wrap .ipmb-details input[type="text"], #ipmb-wrap .ipmb-details select {float: left; width: 200px; height: 24px;}
+#ipmb-wrap .ipmb-details select[multiple=""] {height: 100px;}
+
+#ipmb-wrap .ipmb-fields {width: 69%; float: right; clear: none; margin-top: 8px;}
+#ipmb-wrap .ipmb-fields input[type="text"], #ipmb-wrap .ipmb-fields select {width: 120px;}
+#ipmb-wrap .ipmb-fields tr:first-child .ipmb-fields-remove, #ipmb-wrap .ipmb-fields tr:first-child .ipmb-fields-separator {display: none;}
+
+.ipmb-metabox {width: 100%;}
+.ipmb-metabox iframe {background: #fff !important;}
+.ipmb-metabox iframe a {font-weight: auto;}
+
+.ipmb-metabox > dl {border: 1px #dfdfdf solid; margin: 10px 0; padding: 10px; overflow: hidden; position: relative; -webkit-border-radius: 3px; border-radius: 3px; background: #fff;}
+.ipmb-metabox > dl > dt {font-weight: bold; word-break: break-all; width: 20%; display: inline-block; vertical-align: middle;}
+.ipmb-metabox > dl > dd {width: 78%; display: inline-block; margin: 0; padding-bottom: 10px; vertical-align: top;}
+.ipmb-metabox > dl > div {text-align: right; position: absolute; bottom: 5px; right: 5px; display: none; -webkit-border-radius: 3px; border-radius: 3px; padding: 5px 10px; background: #21759B; color: #fff; font-weight: bold;}
+.ipmb-metabox > dl > div a {color: #fff; text-decoration: none;}
+.ipmb-metabox > dl > div a:hover {text-decoration: underline;}
+.ipmb-metabox > dl:hover > div {display: block;}
+.ipmb-metabox > dl:first-child > div .ipmb-metabox-remove {display: none;}
+
+.ipmb-metabox-move {cursor: move;}
+.ipmb-metabox-all {text-decoration: none; font-weight: bold; position: absolute; top: -34px;}
+.ipmb-metabox-expand-all {right: 130px;}
+.ipmb-metabox-collapse-all {right: 30px;}
+
+.ipmb-metabox .ipmb-metabox-input {width: 100%;}
+.ipmb-metabox .ipmb-metabox-description {font-style: italic; padding: 2px 0 0 2px; display: block;}
+.ipmb-metabox .ipmb-metabox-upload-field {vertical-align: middle;}
+.ipmb-metabox .ipmb-metabox-input-small {width: 182px;}
+.ipmb-metabox .ipmb-metabox-upload img {width: 75px; height: 75px; display: block;}
+.ipmb-metabox .ipmb-metabox-upload-inprogress {background: url('images/loading.gif') no-repeat center center #ddd !important;}
+.ipmb-metabox .ipmb-metabox-upload-insert {background: url('images/default.png') no-repeat; display: block; width: 75px; height: 75px;}
+.ipmb-metabox .ipmb-metabox-upload-remove {display: block; width: 75px; height: 75px; position: relative;}
+.ipmb-metabox .ipmb-metabox-upload-remove span {width: 100%; height: 100%; display: block; position: absolute; z-index: 5; top: 0; left: 0;}
+.ipmb-metabox .ipmb-metabox-upload-remove:hover span {background: url('images/remove.png');}
+
+.html-active .quicktags-toolbar {display: none;}
+.html-active .quicktags-toolbar:first-child {display: block;}
